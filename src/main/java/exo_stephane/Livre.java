@@ -105,6 +105,15 @@ public class Livre {
 
     @Override
     public String toString() {
-        return "le livre a pour titre " + getTitre() + " ayant pour auteur " + getAuteur() + " avec un prix de " + getPrix() + " et est sorti en " + getAnnee();
+        if (getTitre() != "" && getAuteur()!= "" && getPrix() != 0 && getAnnee() != 0) {
+            return "le livre a pour titre " + getTitre() + " ayant pour auteur " + getAuteur() + " avec un prix de " + getPrix() + " et est sorti en " + getAnnee();
+        }else if(getTitre() != "" && getAuteur()!= "" && getPrix() != 0){
+            return "le livre a pour titre " + getTitre() + " ayant pour auteur " + getAuteur() + " avec un prix de " + getPrix();
+        }else if(getTitre() != "" && getAuteur()!= ""){
+            return "le livre a pour titre " + getTitre() + " ayant pour auteur " + getAuteur();
+        }else if(getTitre() != "" ){
+            return "le livre a pour titre " + getTitre();
+        }else
+            return "le livre n'est pas renseigné correctement";
     }
 }
