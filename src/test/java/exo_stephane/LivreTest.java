@@ -40,10 +40,19 @@ public class LivreTest {
         assertEquals(roman.toString(),"le livre a pour titre 99 Francs");
     }
 
-    @Test
-    public void titre_saisi_sans_valeur(){
-        Livre roman = new Livre("","",0,0);
-        assertEquals(roman.toString(),"le livre n'est pas renseigné correctement");
+    @Test(expected = RuntimeException.class)
+    public void livre_saisi_sans_titre(){
+        Livre roman = new Livre("","toto",10,2010);
+    }
+
+    @Test(expected = RuntimeException.class)
+    public void livre_saisi_sans_auteur(){
+        Livre roman = new Livre("toto","",10,2010);
+    }
+
+    @Test(expected = RuntimeException.class)
+    public void livre_saisi_prix_negatif(){
+        Livre roman = new Livre("toto","test",-10,2010);
     }
 
     @Test

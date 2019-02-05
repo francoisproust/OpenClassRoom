@@ -2,10 +2,10 @@
 package exo_stephane;
 
 public class Livre {
-    private String titre;
-    private String auteur;
-    private double prix;
-    private int annee;
+    private String titre = "";
+    private String auteur ="";
+    private double prix = 0;
+    private int annee = 0;
 
     /**
      * définit un livre par son titre
@@ -13,7 +13,6 @@ public class Livre {
      */
     public Livre(String titre) {
         setTitre(titre);
-        //this.titre = titre;
     }
 
     /**
@@ -47,9 +46,9 @@ public class Livre {
      */
     public Livre(String titre, String auteur, double prix, int annee) {
         setTitre(titre);
+        setAnnee(annee);
         setAuteur(auteur);
         setPrix(prix);
-        setAnnee(annee);
     }
 
     public Livre(Livre reference){
@@ -105,13 +104,13 @@ public class Livre {
 
     @Override
     public String toString() {
-        if (getTitre() != "" && getAuteur()!= "" && getPrix() != 0 && getAnnee() != 0) {
+        if (!("").equals(this.getTitre()) && !("").equals(this.getAuteur()) && getPrix() != 0 && getAnnee() != 0) {
             return "le livre a pour titre " + getTitre() + " ayant pour auteur " + getAuteur() + " avec un prix de " + getPrix() + " et est sorti en " + getAnnee();
-        }else if(getTitre() != "" && getAuteur()!= "" && getPrix() != 0){
+        }else if(!("").equals(this.getTitre()) && !("").equals(this.getAuteur()) && getPrix() != 0){
             return "le livre a pour titre " + getTitre() + " ayant pour auteur " + getAuteur() + " avec un prix de " + getPrix();
-        }else if(getTitre() != "" && getAuteur()!= ""){
+        }else if(!("").equals(this.getTitre()) && !("").equals(this.getAuteur())){
             return "le livre a pour titre " + getTitre() + " ayant pour auteur " + getAuteur();
-        }else if(getTitre() != "" ){
+        }else if(!("").equals(this.getTitre())){
             return "le livre a pour titre " + getTitre();
         }else
             return "le livre n'est pas renseigné correctement";
