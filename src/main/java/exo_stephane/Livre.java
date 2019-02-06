@@ -2,10 +2,20 @@
 package exo_stephane;
 
 public class Livre {
-    private String titre = "";
-    private String auteur ="";
-    private double prix = 0;
-    private int annee = 0;
+    private String titre ;
+    private String auteur ;
+    private double prix ;
+    private int annee ;
+
+    /**
+     * constructeur Livre
+     */
+    public Livre(){
+        this.titre = "";
+        this.auteur = "";
+        this.prix = 0;
+        this.annee = 0;
+    }
 
     /**
      * définit un livre par son titre
@@ -21,8 +31,9 @@ public class Livre {
      * @param auteur auteur du livre
      */
     public Livre(String titre, String auteur) {
-        setTitre(titre);
-        setAuteur(auteur);
+        this.titre = titre;
+        this.auteur = auteur;
+
     }
 
     /**
@@ -32,9 +43,9 @@ public class Livre {
      * @param prix prix du livre
      */
     public Livre(String titre, String auteur, double prix) {
-        setTitre(titre);
-        setAuteur(auteur);
-        setPrix(prix);
+        this.titre = titre;
+        this.auteur = auteur;
+        this.prix = prix;
     }
 
     /**
@@ -45,10 +56,10 @@ public class Livre {
      * @param annee année de sortie du livre
      */
     public Livre(String titre, String auteur, double prix, int annee) {
-        setTitre(titre);
-        setAnnee(annee);
-        setAuteur(auteur);
-        setPrix(prix);
+        this.titre = titre;
+        this.auteur = auteur;
+        this.prix = prix;
+        this.annee = annee;
     }
 
     public Livre(Livre reference){
@@ -59,60 +70,43 @@ public class Livre {
     }
 
     public String getTitre() {
+
         return titre;
     }
 
     public void setTitre(String titre) {
-        if (titre == ""){
-            throw new RuntimeException("le titre ne peut pas être vide");
-        }
         this.titre = titre;
     }
 
     public String getAuteur() {
+
         return auteur;
     }
 
     public void setAuteur(String auteur) {
-        if (auteur == ""){
-            throw new RuntimeException("l'auteur ne peut pas être vide");
-        }
         this.auteur = auteur;
     }
 
     public double getPrix() {
+
         return prix;
     }
 
     public void setPrix(double prix) {
-        if (prix < 0){
-            throw new RuntimeException("le montant du livre ne peut pas être négatif");
-        }
         this.prix = prix;
     }
 
     public int getAnnee() {
+
         return annee;
     }
 
     public void setAnnee(int annee) {
-    //    if (annee == Integer.parseInt(null)){
-     //       throw new RuntimeException("l'année du livre doit être remplie");
-     //   }
         this.annee = annee;
     }
 
     @Override
     public String toString() {
-        if (!("").equals(this.getTitre()) && !("").equals(this.getAuteur()) && getPrix() != 0 && getAnnee() != 0) {
-            return "le livre a pour titre " + getTitre() + " ayant pour auteur " + getAuteur() + " avec un prix de " + getPrix() + " et est sorti en " + getAnnee();
-        }else if(!("").equals(this.getTitre()) && !("").equals(this.getAuteur()) && getPrix() != 0){
-            return "le livre a pour titre " + getTitre() + " ayant pour auteur " + getAuteur() + " avec un prix de " + getPrix();
-        }else if(!("").equals(this.getTitre()) && !("").equals(this.getAuteur())){
-            return "le livre a pour titre " + getTitre() + " ayant pour auteur " + getAuteur();
-        }else if(!("").equals(this.getTitre())){
-            return "le livre a pour titre " + getTitre();
-        }else
-            return "le livre n'est pas renseigné correctement";
+        return "le livre a pour titre " + getTitre() + " ayant pour auteur " + getAuteur() + " avec un prix de " + getPrix() + " et est sorti en " + getAnnee();
     }
 }
