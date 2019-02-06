@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bde63377-57cb-4c3d-b438-0e2325d9fb65" name="Default Changelist" comment="classe Livre:&#10;- refacto suite au retour du mentor&#10;&#10;classe LivreTest:&#10;- correction&#10;&#10;Ajout classe Temps et TempsTest:&#10;- premiers tests ok&#10;- constructeurs demandés livrés">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exo_stephane/Temps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exo_stephane/Temps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/exo_stephane/TempsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exo_stephane/TempsTest.java" afterDir="false" />
+    <list default="true" id="bde63377-57cb-4c3d-b438-0e2325d9fb65" name="Default Changelist" comment="ajout fonction ajouter heures">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TempsTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TempsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/exo_stephane/TempsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+            <state relative-caret-position="900">
+              <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Temps.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Temps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Temps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+            <state relative-caret-position="175">
+              <caret line="98" column="47" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -81,6 +78,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/exo_stephane/Temps.java" />
         <option value="$PROJECT_DIR$/src/test/java/exo_stephane/TempsTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -383,25 +381,17 @@
       <option name="project" value="LOCAL" />
       <updated>1549444420365</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ajout fonction ajouter heures">
+      <created>1549447437910</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549447437910</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TempsTest_ajouter_heures - 2019.02.06 at 10h 48m 33s.xml">
-      <configuration name="TempsTest.ajouter_heures" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TempsTest_ajouter_heures - 2019.02.06 at 10h 50m 23s.xml">
-      <configuration name="TempsTest.ajouter_heures" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TempsTest_ajouter_heures - 2019.02.06 at 10h 53m 38s.xml">
-      <configuration name="TempsTest.ajouter_heures" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TempsTest_ajouter_heures - 2019.02.06 at 10h 53m 44s.xml">
-      <configuration name="TempsTest.ajouter_heures" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TempsTest_ajouter_heures - 2019.02.06 at 10h 53m 53s.xml">
-      <configuration name="TempsTest.ajouter_heures" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TempsTest_ajouter_heures - 2019.02.06 at 10h 54m 50s.xml">
       <configuration name="TempsTest.ajouter_heures" configurationId="JUnit" />
     </history-entry>
@@ -416,6 +406,21 @@
     </history-entry>
     <history-entry file="TempsTest_ajouter_heures_demain - 2019.02.06 at 10h 57m 04s.xml">
       <configuration name="TempsTest.ajouter_heures_demain" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TempsTest_ajouter_heures_demain - 2019.02.06 at 11h 00m 57s.xml">
+      <configuration name="TempsTest.ajouter_heures_demain" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TempsTest_ajouter_heures_demain - 2019.02.06 at 11h 01m 13s.xml">
+      <configuration name="TempsTest.ajouter_heures_demain" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TempsTest_ajouter_heures_demain - 2019.02.06 at 11h 02m 44s.xml">
+      <configuration name="TempsTest.ajouter_heures_demain" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TempsTest_ajouter_heures_demain - 2019.02.06 at 11h 03m 31s.xml">
+      <configuration name="TempsTest.ajouter_heures_demain" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TempsTest - 2019.02.06 at 11h 03m 34s.xml">
+      <configuration name="TempsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -499,11 +504,12 @@
     <MESSAGE value="ajout des tests pour Livre" />
     <MESSAGE value="refacto de la classe Livre et correction des tests" />
     <MESSAGE value="classe Livre:&#10;- refacto suite au retour du mentor&#10;&#10;classe LivreTest:&#10;- correction&#10;&#10;Ajout classe Temps et TempsTest:&#10;- premiers tests ok&#10;- constructeurs demandés livrés" />
-    <option name="LAST_COMMIT_MESSAGE" value="classe Livre:&#10;- refacto suite au retour du mentor&#10;&#10;classe LivreTest:&#10;- correction&#10;&#10;Ajout classe Temps et TempsTest:&#10;- premiers tests ok&#10;- constructeurs demandés livrés" />
+    <MESSAGE value="ajout fonction ajouter heures" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout fonction ajouter heures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -760,20 +766,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/exo_stephane/TempsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Temps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="98" column="47" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Temps.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/exo_stephane/TempsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
