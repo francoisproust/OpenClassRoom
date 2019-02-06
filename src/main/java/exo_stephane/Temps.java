@@ -88,7 +88,7 @@ public class Temps {
      * méthode permettant d'ajouter des heures à l'heure courante
      * @param heures
      */
-    public void ajouterHeures(int heures) {
+    public int ajouterHeures(int heures) {
         Calendar rightNow = Calendar.getInstance();
         int heure = rightNow.get(Calendar.HOUR_OF_DAY);
         int minute = rightNow.get(Calendar.MINUTE);
@@ -102,8 +102,51 @@ public class Temps {
         }else{
             this.heures = heure + heures;
         }
+        return this.heures;
     }
 
+    /**
+     * Méthode permettant l'ajout de minutes à l'heure système
+     * @param minutes
+     */
+    public int ajouterMinutes(int minutes) {
+        Calendar rightNow = Calendar.getInstance();
+        int heure = rightNow.get(Calendar.HOUR_OF_DAY);
+        int minute = rightNow.get(Calendar.MINUTE);
+        int seconde = rightNow.get(Calendar.SECOND);
+        this.secondes = seconde;
+        if (minutes + minute > 60){
+            this.heures = ajouterHeures((minutes + minute)/60);
+            this.minutes = (minutes + minute) % 60;
+        }else if(minutes + minute == 60){
+            this.minutes = 0;
+        }else{
+            this.heures = heure;
+            this.minutes = minutes + minute;
+        }
+        return this.minutes;
+    }
+
+    /**
+     * Méthode ajoutant des secondes à l'heure système
+     * @param secondes
+     */
+    public void ajouterSecondes(int secondes) {
+        Calendar rightNow = Calendar.getInstance();
+        int heure = rightNow.get(Calendar.HOUR_OF_DAY);
+        int minute = rightNow.get(Calendar.MINUTE);
+        int seconde = rightNow.get(Calendar.SECOND);
+        if (seconde + secondes > 60){
+            this.minutes = ajouterMinutes((seconde + secondes)/60);
+            this.secondes = (seconde + secondes) % 60;
+        }else if (seconde + secondes == 60){
+            this.secondes = 0;
+        }else{
+            this.heures = heure;
+            this.minutes = minute;
+            this.secondes = secondes + seconde;
+        }
+    }
 
     @Override
     public String toString() {

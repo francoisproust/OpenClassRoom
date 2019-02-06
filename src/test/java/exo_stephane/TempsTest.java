@@ -1,12 +1,6 @@
 package exo_stephane;
 
-import org.junit.Before;
 import org.junit.Test;
-
-import java.util.Calendar;
-import java.util.GregorianCalendar;
-
-import static org.junit.Assert.*;
 
 
 public class TempsTest {
@@ -61,6 +55,21 @@ public class TempsTest {
         int heure = 48;
         Temps nouveauTemps = new Temps();
         nouveauTemps.ajouterHeures(heure);
+        System.out.println(nouveauTemps.toString());
+    }
+    @Test
+    public void ajouter_secondes_sup60(){
+        int secondes = 122;
+        Temps nouveauTemps = new Temps();
+        nouveauTemps.ajouterSecondes(secondes);
+        System.out.println(nouveauTemps.toString());
+    }
+
+    @Test
+    public void ajouter_secondes_inf60(){
+        int secondes = 3600;
+        Temps nouveauTemps = new Temps();
+        nouveauTemps.ajouterSecondes(secondes);
         System.out.println(nouveauTemps.toString());
     }
 }
