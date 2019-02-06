@@ -1,7 +1,6 @@
 package exo_stephane;
 
 import java.util.Calendar;
-import java.util.GregorianCalendar;
 
 public class Temps {
     private int heures;
@@ -85,17 +84,26 @@ public class Temps {
         this.secondes = secondes;
     }
 
-    public String ajouterHeures(int heures) {
-        String nouvelleHeure = null;
-
-        return  nouvelleHeure;
-    }
-
-    private int retourneHeureSysteme(int toto){
+    /**
+     * méthode permettant d'ajouter des heures à l'heure courante
+     * @param heures
+     */
+    public void ajouterHeures(int heures) {
         Calendar rightNow = Calendar.getInstance();
-
-      return 0  ;
+        int heure = rightNow.get(Calendar.HOUR_OF_DAY);
+        int minute = rightNow.get(Calendar.MINUTE);
+        int seconde = rightNow.get(Calendar.SECOND);
+        this.minutes = minute;
+        this.secondes = seconde;
+        if (heure + heures > 24){
+            this.heures = (heure + heures) % 24;
+        }else if (heure + heures == 24) {
+            this.heures = 0;
+        }else{
+            this.heures = heure + heures;
+        }
     }
+
 
     @Override
     public String toString() {

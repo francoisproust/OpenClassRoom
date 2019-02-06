@@ -49,9 +49,18 @@ public class TempsTest {
     }
 
     @Test
-    public void ajouter_heures(){
-        //Temps nouveauTemps = new Temps();
-        //Temps nouveauTemps = nouveauTemps.ajouterHeures(int heures);
+    public void ajouter_heures_demain(){
+        int heure = 23;
+        Temps nouveauTemps = new Temps();
+        nouveauTemps.ajouterHeures(heure);
+        System.out.println(nouveauTemps.toString());
+    }
 
+    @Test
+    public void ajouter_heures_deux_jours(){
+        int heure = 48;
+        Temps nouveauTemps = new Temps();
+        nouveauTemps.ajouterHeures(heure);
+        System.out.println(nouveauTemps.toString());
     }
 }

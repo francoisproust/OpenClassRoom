@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bde63377-57cb-4c3d-b438-0e2325d9fb65" name="Default Changelist" comment="refacto de la classe Livre et correction des tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exo_stephane/Temps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exo_stephane/TempsTest.java" afterDir="false" />
+    <list default="true" id="bde63377-57cb-4c3d-b438-0e2325d9fb65" name="Default Changelist" comment="classe Livre:&#10;- refacto suite au retour du mentor&#10;&#10;classe LivreTest:&#10;- correction&#10;&#10;Ajout classe Temps et TempsTest:&#10;- premiers tests ok&#10;- constructeurs demandés livrés">
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exo_stephane/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exo_stephane/Livre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/exo_stephane/LivreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exo_stephane/LivreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exo_stephane/Livre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exo_stephane/Livre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/exo_stephane/LivreTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exo_stephane/Temps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exo_stephane/Temps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exo_stephane/TempsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exo_stephane/TempsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,8 +22,8 @@
       <file leaf-file-name="TempsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/exo_stephane/TempsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="212">
+              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,45 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Temps.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Temps.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Temps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Livre.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Livre.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="109" column="160" selection-start-line="109" selection-start-column="160" selection-end-line="109" selection-end-column="160" />
-              <folding>
-                <element signature="e#1817#1818#0" expanded="true" />
-                <element signature="e#1851#1852#0" expanded="true" />
-                <element signature="e#2068#2069#0" expanded="true" />
-                <element signature="e#2104#2105#0" expanded="true" />
-                <element signature="e#2313#2314#0" expanded="true" />
-                <element signature="e#2345#2346#0" expanded="true" />
-                <element signature="e#2563#2564#0" expanded="true" />
-                <element signature="e#2597#2598#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LivreTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/exo_stephane/LivreTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="265">
+              <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -115,11 +76,11 @@
         <option value="$PROJECT_DIR$/src/main/java/koor/calcul.java" />
         <option value="$PROJECT_DIR$/src/main/java/koor/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/koor/Calcul.java" />
-        <option value="$PROJECT_DIR$/src/main/java/exo_stephane/Temps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/exo_stephane/TempsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/exo_stephane/Livre.java" />
         <option value="$PROJECT_DIR$/src/test/java/exo_stephane/LivreTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exo_stephane/Temps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/exo_stephane/TempsTest.java" />
       </list>
     </option>
   </component>
@@ -268,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LivreTest">
+  <component name="RunManager" selected="JUnit.TempsTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="openclassroom" />
@@ -287,29 +248,6 @@
       <option name="MAIN_CLASS_NAME" value="exo_stephane.LivreTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="LivreTest.titre_saisi_titre_auteur_prix_annee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="openclassroom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exo_stephane.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="exo_stephane" />
-      <option name="MAIN_CLASS_NAME" value="exo_stephane.LivreTest" />
-      <option name="METHOD_NAME" value="titre_saisi_titre_auteur_prix_annee" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -365,20 +303,43 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="TempsTest.ajouter_heures_demain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="openclassroom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exo_stephane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="exo_stephane" />
+      <option name="MAIN_CLASS_NAME" value="exo_stephane.TempsTest" />
+      <option name="METHOD_NAME" value="ajouter_heures_demain" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <list>
       <item itemvalue="JUnit.LivreTest" />
-      <item itemvalue="JUnit.TempsTest" />
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.TempsTest.ajouter_heures" />
-      <item itemvalue="JUnit.LivreTest.titre_saisi_titre_auteur_prix_annee" />
+      <item itemvalue="JUnit.TempsTest.ajouter_heures_demain" />
+      <item itemvalue="JUnit.TempsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LivreTest" />
-        <item itemvalue="JUnit.LivreTest.titre_saisi_titre_auteur_prix_annee" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TempsTest.ajouter_heures" />
         <item itemvalue="JUnit.TempsTest" />
+        <item itemvalue="JUnit.TempsTest.ajouter_heures_demain" />
+        <item itemvalue="JUnit.TempsTest.ajouter_heures" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.LivreTest" />
       </list>
     </recent_temporary>
   </component>
@@ -415,39 +376,46 @@
       <option name="project" value="LOCAL" />
       <updated>1549373804820</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="classe Livre:&#10;- refacto suite au retour du mentor&#10;&#10;classe LivreTest:&#10;- correction&#10;&#10;Ajout classe Temps et TempsTest:&#10;- premiers tests ok&#10;- constructeurs demandés livrés">
+      <created>1549444420365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549444420365</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TempsTest - 2019.02.05 at 15h 00m 09s.xml">
-      <configuration name="TempsTest" configurationId="JUnit" />
+    <history-entry file="TempsTest_ajouter_heures - 2019.02.06 at 10h 48m 33s.xml">
+      <configuration name="TempsTest.ajouter_heures" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TempsTest - 2019.02.05 at 15h 01m 05s.xml">
-      <configuration name="TempsTest" configurationId="JUnit" />
+    <history-entry file="TempsTest_ajouter_heures - 2019.02.06 at 10h 50m 23s.xml">
+      <configuration name="TempsTest.ajouter_heures" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TempsTest - 2019.02.05 at 15h 41m 16s.xml">
-      <configuration name="TempsTest" configurationId="JUnit" />
+    <history-entry file="TempsTest_ajouter_heures - 2019.02.06 at 10h 53m 38s.xml">
+      <configuration name="TempsTest.ajouter_heures" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LivreTest - 2019.02.06 at 09h 53m 57s.xml">
-      <configuration name="LivreTest" configurationId="JUnit" />
+    <history-entry file="TempsTest_ajouter_heures - 2019.02.06 at 10h 53m 44s.xml">
+      <configuration name="TempsTest.ajouter_heures" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LivreTest - 2019.02.06 at 10h 03m 06s.xml">
-      <configuration name="LivreTest" configurationId="JUnit" />
+    <history-entry file="TempsTest_ajouter_heures - 2019.02.06 at 10h 53m 53s.xml">
+      <configuration name="TempsTest.ajouter_heures" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LivreTest_titre_saisi_titre_auteur_prix_annee - 2019.02.06 at 10h 04m 53s.xml">
-      <configuration name="LivreTest.titre_saisi_titre_auteur_prix_annee" configurationId="JUnit" />
+    <history-entry file="TempsTest_ajouter_heures - 2019.02.06 at 10h 54m 50s.xml">
+      <configuration name="TempsTest.ajouter_heures" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LivreTest - 2019.02.06 at 10h 05m 01s.xml">
-      <configuration name="LivreTest" configurationId="JUnit" />
+    <history-entry file="TempsTest_ajouter_heures - 2019.02.06 at 10h 56m 24s.xml">
+      <configuration name="TempsTest.ajouter_heures" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LivreTest - 2019.02.06 at 10h 06m 09s.xml">
-      <configuration name="LivreTest" configurationId="JUnit" />
+    <history-entry file="TempsTest_ajouter_heures_demain - 2019.02.06 at 10h 56m 44s.xml">
+      <configuration name="TempsTest.ajouter_heures_demain" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LivreTest - 2019.02.06 at 10h 06m 14s.xml">
-      <configuration name="LivreTest" configurationId="JUnit" />
+    <history-entry file="TempsTest_ajouter_heures_demain - 2019.02.06 at 10h 56m 53s.xml">
+      <configuration name="TempsTest.ajouter_heures_demain" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LivreTest - 2019.02.06 at 10h 08m 23s.xml">
-      <configuration name="LivreTest" configurationId="JUnit" />
+    <history-entry file="TempsTest_ajouter_heures_demain - 2019.02.06 at 10h 57m 04s.xml">
+      <configuration name="TempsTest.ajouter_heures_demain" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -530,11 +498,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ajout des tests pour Livre" />
     <MESSAGE value="refacto de la classe Livre et correction des tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="refacto de la classe Livre et correction des tests" />
+    <MESSAGE value="classe Livre:&#10;- refacto suite au retour du mentor&#10;&#10;classe LivreTest:&#10;- correction&#10;&#10;Ajout classe Temps et TempsTest:&#10;- premiers tests ok&#10;- constructeurs demandés livrés" />
+    <option name="LAST_COMMIT_MESSAGE" value="classe Livre:&#10;- refacto suite au retour du mentor&#10;&#10;classe LivreTest:&#10;- correction&#10;&#10;Ajout classe Temps et TempsTest:&#10;- premiers tests ok&#10;- constructeurs demandés livrés" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -544,6 +513,21 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>this.heures</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>heure + heures - 24</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>heure + heures</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>!(&quot;&quot;).equals(this.getAuteur())</expression-string>
         <language-id>JAVA</language-id>
@@ -566,9 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -735,39 +716,9 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/exo_stephane/TempsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Temps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Livre.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
+        <state relative-caret-position="1430">
           <caret line="109" column="160" selection-start-line="109" selection-start-column="160" selection-end-line="109" selection-end-column="160" />
           <folding>
             <element signature="e#1817#1818#0" expanded="true" />
@@ -789,6 +740,40 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/exo_stephane/TempsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Temps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
         </state>
       </provider>
     </entry>
