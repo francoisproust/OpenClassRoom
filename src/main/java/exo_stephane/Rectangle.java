@@ -50,7 +50,7 @@ public class Rectangle {
 
     /**
      * Methode vérifiant si le rectangle est un carré
-     * @return boolean à true si c est un carré 
+     * @return boolean à true si c est un carré
      */
     public boolean isCarre() {
         boolean result;
