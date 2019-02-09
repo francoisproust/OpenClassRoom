@@ -44,14 +44,8 @@ public class Temps {
         setSecondes(secondes);
     }
 
-
-
-    private void heureSysteme(){
-        java.util.Date date = new java.util.Date();
-
-    }
-
     public int getHeures() {
+
         return heures;
     }
 
@@ -63,6 +57,7 @@ public class Temps {
     }
 
     public int getMinutes() {
+
         return minutes;
     }
 
