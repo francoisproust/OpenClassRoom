@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bde63377-57cb-4c3d-b438-0e2325d9fb65" name="Default Changelist" comment="Exercice Point avec Test ok">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exo_stephane/Personne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exo_stephane/PersonneTest.java" afterDir="false" />
+    <list default="true" id="bde63377-57cb-4c3d-b438-0e2325d9fb65" name="Default Changelist" comment="Exercice Personne avec Test ok">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exo_stephane/Carte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exo_stephane/Paquet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exo_stephane/PaquetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -16,13 +17,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="openclassroom" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PersonneTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/exo_stephane/PersonneTest.java">
+      <file leaf-file-name="PaquetTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/exo_stephane/PaquetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="390">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,40 +34,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Rectangle.java">
+      <file leaf-file-name="Paquet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Paquet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="e#1508#1509#0" expanded="true" />
-                <element signature="e#1539#1540#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Personne.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Personne.java">
+      <file leaf-file-name="Carte.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Carte.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="106" column="19" selection-start-line="101" selection-start-column="15" selection-end-line="106" selection-end-column="19" />
-              <folding>
-                <element signature="e#1337#1338#0" expanded="true" />
-                <element signature="e#1363#1364#0" expanded="true" />
-                <element signature="e#1401#1402#0" expanded="true" />
-                <element signature="e#1431#1432#0" expanded="true" />
-                <element signature="e#1464#1465#0" expanded="true" />
-                <element signature="e#1493#1494#0" expanded="true" />
-                <element signature="e#1537#1538#0" expanded="true" />
-                <element signature="e#1573#1574#0" expanded="true" />
-                <element signature="e#1604#1605#0" expanded="true" />
-                <element signature="e#1631#1632#0" expanded="true" />
-                <element signature="e#1671#1672#0" expanded="true" />
-                <element signature="e#1703#1704#0" expanded="true" />
-                <element signature="e#1730#1731#0" expanded="true" />
-                <element signature="e#1756#1757#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="630">
+              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -119,9 +106,13 @@
         <option value="$PROJECT_DIR$/src/main/java/exo_stephane/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/exo_stephane/Point.java" />
         <option value="$PROJECT_DIR$/src/test/java/exo_stephane/PointTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/exo_stephane/Carte.java" />
-        <option value="$PROJECT_DIR$/src/main/java/exo_stephane/Personne.java" />
         <option value="$PROJECT_DIR$/src/test/java/exo_stephane/PersonneTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exo_stephane/Personne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exo_stephane/Cartes.java" />
+        <option value="$PROJECT_DIR$/src/test/java/exo_stephane/Paquet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/exo_stephane/PaquetTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exo_stephane/Carte.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exo_stephane/Paquet.java" />
       </list>
     </option>
   </component>
@@ -166,9 +157,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,6 +221,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,8 +261,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonneTest">
-    <configuration name="PersonneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PaquetTest">
+    <configuration name="PaquetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="openclassroom" />
       <extension name="coverage">
         <pattern>
@@ -282,7 +273,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="exo_stephane" />
-      <option name="MAIN_CLASS_NAME" value="exo_stephane.PersonneTest" />
+      <option name="MAIN_CLASS_NAME" value="exo_stephane.PaquetTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -294,7 +285,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PersonneTest.ageDansLaTranche" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaquetTest.Piocher10cartes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="openclassroom" />
       <extension name="coverage">
         <pattern>
@@ -305,8 +296,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="exo_stephane" />
-      <option name="MAIN_CLASS_NAME" value="exo_stephane.PersonneTest" />
-      <option name="METHOD_NAME" value="ageDansLaTranche" />
+      <option name="MAIN_CLASS_NAME" value="exo_stephane.PaquetTest" />
+      <option name="METHOD_NAME" value="Piocher10cartes" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -317,7 +308,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PersonneTest.ageNegatif" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaquetTest.Piocher53cartes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="openclassroom" />
       <extension name="coverage">
         <pattern>
@@ -328,8 +319,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="exo_stephane" />
-      <option name="MAIN_CLASS_NAME" value="exo_stephane.PersonneTest" />
-      <option name="METHOD_NAME" value="ageNegatif" />
+      <option name="MAIN_CLASS_NAME" value="exo_stephane.PaquetTest" />
+      <option name="METHOD_NAME" value="Piocher53cartes" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -340,7 +331,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PersonneTest.creationPersonneNomPrenom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaquetTest.Piocher60cartes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="openclassroom" />
       <extension name="coverage">
         <pattern>
@@ -351,8 +342,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="exo_stephane" />
-      <option name="MAIN_CLASS_NAME" value="exo_stephane.PersonneTest" />
-      <option name="METHOD_NAME" value="creationPersonneNomPrenom" />
+      <option name="MAIN_CLASS_NAME" value="exo_stephane.PaquetTest" />
+      <option name="METHOD_NAME" value="Piocher60cartes" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -363,7 +354,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TempsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaquetTest.ajouter10cartes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="openclassroom" />
       <extension name="coverage">
         <pattern>
@@ -374,9 +365,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="exo_stephane" />
-      <option name="MAIN_CLASS_NAME" value="exo_stephane.TempsTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="exo_stephane.PaquetTest" />
+      <option name="METHOD_NAME" value="ajouter10cartes" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -387,19 +378,19 @@
       <patterns />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TempsTest" />
-      <item itemvalue="JUnit.PersonneTest.ageNegatif" />
-      <item itemvalue="JUnit.PersonneTest" />
-      <item itemvalue="JUnit.PersonneTest.ageDansLaTranche" />
-      <item itemvalue="JUnit.PersonneTest.creationPersonneNomPrenom" />
+      <item itemvalue="JUnit.PaquetTest.Piocher10cartes" />
+      <item itemvalue="JUnit.PaquetTest.Piocher53cartes" />
+      <item itemvalue="JUnit.PaquetTest.ajouter10cartes" />
+      <item itemvalue="JUnit.PaquetTest" />
+      <item itemvalue="JUnit.PaquetTest.Piocher60cartes" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonneTest" />
-        <item itemvalue="JUnit.PersonneTest.creationPersonneNomPrenom" />
-        <item itemvalue="JUnit.PersonneTest.ageDansLaTranche" />
-        <item itemvalue="JUnit.PersonneTest.ageNegatif" />
-        <item itemvalue="JUnit.TempsTest" />
+        <item itemvalue="JUnit.PaquetTest" />
+        <item itemvalue="JUnit.PaquetTest.Piocher60cartes" />
+        <item itemvalue="JUnit.PaquetTest.ajouter10cartes" />
+        <item itemvalue="JUnit.PaquetTest.Piocher10cartes" />
+        <item itemvalue="JUnit.PaquetTest.Piocher53cartes" />
       </list>
     </recent_temporary>
   </component>
@@ -485,39 +476,46 @@
       <option name="project" value="LOCAL" />
       <updated>1549723491746</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Exercice Personne avec Test ok">
+      <created>1549872475740</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1549872475741</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonneTest_ageNegatif - 2019.02.11 at 08h 44m 39s.xml">
-      <configuration name="PersonneTest.ageNegatif" configurationId="JUnit" />
+    <history-entry file="PaquetTest_Piocher10cartes - 2019.02.12 at 15h 42m 46s.xml">
+      <configuration name="PaquetTest.Piocher10cartes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonneTest - 2019.02.11 at 08h 44m 59s.xml">
-      <configuration name="PersonneTest" configurationId="JUnit" />
+    <history-entry file="PaquetTest_Piocher10cartes - 2019.02.12 at 15h 42m 51s.xml">
+      <configuration name="PaquetTest.Piocher10cartes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonneTest_ageNegatif - 2019.02.11 at 08h 45m 09s.xml">
-      <configuration name="PersonneTest.ageNegatif" configurationId="JUnit" />
+    <history-entry file="PaquetTest_Piocher10cartes - 2019.02.12 at 15h 43m 22s.xml">
+      <configuration name="PaquetTest.Piocher10cartes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonneTest_ageNegatif - 2019.02.11 at 08h 45m 57s.xml">
-      <configuration name="PersonneTest.ageNegatif" configurationId="JUnit" />
+    <history-entry file="PaquetTest_ajouter10cartes - 2019.02.12 at 15h 44m 02s.xml">
+      <configuration name="PaquetTest.ajouter10cartes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonneTest_ageNegatif - 2019.02.11 at 08h 46m 01s.xml">
-      <configuration name="PersonneTest.ageNegatif" configurationId="JUnit" />
+    <history-entry file="PaquetTest_ajouter10cartes - 2019.02.12 at 15h 47m 35s.xml">
+      <configuration name="PaquetTest.ajouter10cartes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonneTest - 2019.02.11 at 08h 46m 07s.xml">
-      <configuration name="PersonneTest" configurationId="JUnit" />
+    <history-entry file="PaquetTest - 2019.02.12 at 15h 47m 42s.xml">
+      <configuration name="PaquetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonneTest_ageDansLaTranche - 2019.02.11 at 08h 47m 54s.xml">
-      <configuration name="PersonneTest.ageDansLaTranche" configurationId="JUnit" />
+    <history-entry file="PaquetTest - 2019.02.12 at 15h 48m 53s.xml">
+      <configuration name="PaquetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonneTest_ageDansLaTranche - 2019.02.11 at 08h 49m 03s.xml">
-      <configuration name="PersonneTest.ageDansLaTranche" configurationId="JUnit" />
+    <history-entry file="PaquetTest_Piocher60cartes - 2019.02.12 at 15h 49m 14s.xml">
+      <configuration name="PaquetTest.Piocher60cartes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonneTest_ageDansLaTranche - 2019.02.11 at 08h 49m 17s.xml">
-      <configuration name="PersonneTest.ageDansLaTranche" configurationId="JUnit" />
+    <history-entry file="PaquetTest - 2019.02.12 at 15h 51m 22s.xml">
+      <configuration name="PaquetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonneTest_ageDansLaTranche - 2019.02.11 at 08h 49m 33s.xml">
-      <configuration name="PersonneTest.ageDansLaTranche" configurationId="JUnit" />
+    <history-entry file="PaquetTest - 2019.02.12 at 15h 53m 51s.xml">
+      <configuration name="PaquetTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -535,22 +533,21 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50080776" side_tool="true" weight="0.32794118" />
       <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.24411765" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32794118" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32794118" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989059" visible="true" weight="0.21243942" />
-      <window_info anchor="bottom" id="SonarQube" order="13" />
-      <window_info id="Structure" order="1" sideWeight="0.5010941" side_tool="true" weight="0.20274636" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49671772" visible="true" weight="0.21567044" />
+      <window_info anchor="bottom" id="SonarQube" order="13" weight="0.32941177" />
+      <window_info id="Structure" order="1" sideWeight="0.50328225" side_tool="true" weight="0.21567044" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49264705" />
+      <window_info id="Favorites" order="6" sideWeight="0.502193" side_tool="true" weight="0.21567044" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -558,37 +555,38 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.32995737" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32869378" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32995737" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32869378" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,17 +605,13 @@
     <MESSAGE value="finilatisation exercice temps" />
     <MESSAGE value="Exercice Rectangle avec Test ok" />
     <MESSAGE value="Exercice Point avec Test ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice Point avec Test ok" />
+    <MESSAGE value="Exercice Personne avec Test ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice Personne avec Test ok" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="24" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="livre" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -669,13 +663,14 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Carte.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="1140">
+          <caret line="76" column="10" lean-forward="true" selection-start-line="10" selection-end-line="76" selection-end-column="10" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Carte.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/exo_stephane/TempsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1095">
@@ -748,10 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -759,10 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -787,10 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -798,10 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,16 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,13 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -946,34 +908,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Carte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/exo_stephane/LivreTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Carte.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Livre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="64" column="32" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -984,44 +923,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/exo_stephane/PersonneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="599">
           <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
-          <folding>
-            <element signature="e#1508#1509#0" expanded="true" />
-            <element signature="e#1539#1540#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Personne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="106" column="19" selection-start-line="101" selection-start-column="15" selection-end-line="106" selection-end-column="19" />
+        <state relative-caret-position="301">
+          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="76" column="10" selection-start-line="10" selection-end-line="76" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Livre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/exo_stephane/LivreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
-            <element signature="e#1431#1432#0" expanded="true" />
-            <element signature="e#1464#1465#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1537#1538#0" expanded="true" />
-            <element signature="e#1573#1574#0" expanded="true" />
-            <element signature="e#1604#1605#0" expanded="true" />
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1671#1672#0" expanded="true" />
-            <element signature="e#1703#1704#0" expanded="true" />
-            <element signature="e#1730#1731#0" expanded="true" />
-            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/exo_stephane/PersonneTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Carte.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="630">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exo_stephane/Paquet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/exo_stephane/PaquetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
